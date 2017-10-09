@@ -1,4 +1,4 @@
-<?php 
+<?php
 /**
  * Template part for displaying posts.
  *
@@ -9,9 +9,9 @@
 
 ?>
 
-	<article id="post-<?php the_ID(); ?>" <?php post_class( array('list-article',' col-lg-3', 'col-md-3', 'col-sm-3','col-xs-12') ); ?>>
+	<article id="post-<?php the_ID(); ?>" <?php post_class( array('list-article',' col-lg-4', 'col-md-4', 'col-sm-4','col-xs-12') ); ?>>
 
-		<div class="center-block img-responsive">
+		<div class="img-responsive">
 
 			<a href="<?php echo esc_url( get_permalink() ); ?>">
 				<?php
@@ -24,6 +24,5 @@
 			</a>
 		</div>
 	</article>
-
 
 <!-- #post-## -->

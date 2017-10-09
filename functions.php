@@ -20,6 +20,7 @@ wp_enqueue_style( 'bootstrap', get_stylesheet_directory_uri() . '/bootstrap/css/
 
 }
 
+
 register_nav_menus(array(
 'secondary' => __('Secondary Menu', 'vertulab'),
 ));
