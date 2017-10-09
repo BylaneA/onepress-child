@@ -1,0 +1,58 @@
+/*
+
+Theme Name: onepress-child
+
+Description: Theme enfant de Onepress
+
+Author: Code Académie - promo 2
+
+Author URI: https://www.wpserveur.net
+
+Template: onepress 
+
+Version: 0.1.0
+
+*/
+
+
+.site-branding .site-text-logo {
+	color: green !important;
+}
+svg{
+	margin:0 auto;
+	padding:0;
+}
+.svg-container{
+	display:inline-block;
+	position:relative;
+	padding-bottom:100%;
+	vertical-align:middle;
+	overflow:hidden;
+	width:100%;
+}
+.svg-content{
+	display:inline-block;
+	position:absolute;
+	width:100%;
+	bottom: 0;
+	left:0;
+}
+
+
+
+
+.gradient{
+	position:absolute;
+	width:10rem;
+	height:10rem;
+	background:linear-gradient(to left, #004D84 4.42%,rgba(0, 105, 180, 0) 86.29%);
+	right:2rem;
+	bottom:2rem;
+}
+
+
+/*.footer {
+	background-image: url("assets/images/footer.png");
+	min-width: 100%!important;
+	padding:0 !important;
+	}*/
